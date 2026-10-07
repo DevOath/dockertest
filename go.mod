@@ -1,6 +1,6 @@
 module github.com/ory/dockertest/v3
 
-go 1.22
+go 1.24.0
 
 require (
 	github.com/Microsoft/go-winio v0.6.2
@@ -10,7 +10,7 @@ require (
 	github.com/docker/cli v27.4.1+incompatible
 	github.com/docker/go-connections v0.5.0
 	github.com/docker/go-units v0.5.0
-	github.com/go-sql-driver/mysql v1.9.1
+	github.com/go-sql-driver/mysql v1.10.1
 	github.com/lib/pq v1.10.9
 	github.com/moby/term v0.5.0
 	github.com/opencontainers/image-spec v1.1.0
@@ -28,7 +28,7 @@ require (
 )
 
 require (
-	filippo.io/edwards25519 v1.1.0 // indirect
+	filippo.io/edwards25519 v1.2.0 // indirect
 	github.com/go-viper/mapstructure/v2 v2.1.0 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/google/go-cmp v0.6.0 // indirect
